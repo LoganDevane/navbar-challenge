@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color:: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(0,0,0,1) 100%);;
+    width: 200px; 
+    height: 100vh; 
+    position: fixed;
+    top: 0;
+    left: 0;
+   
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    padding: 15px 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    background-color: #555;
+}
+
+.content {
+    margin-left: 200px; 
+    padding: 20px;
+}
+
